@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Jeremy Dreher's Portfolio </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://use.fontawesome.com/9911ddc926.js"></script>
+</head>
+
+<body class="body">
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <ul class="w3-navbar">
+            <li class="w3-dropdown-hover">
+                <a href="#">HOME
+                </a>
+                    <div class="w3-dropdown-content">
+                        <a href="#aboutMe">ABOUT ME</a>
+                        <a href="#portfolio">PORTFOLIO</a>
+                        <a href="#contact">CONTACT</a>
+                    </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-text-white inset_box-shadow">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+        <div class="w3-center w3-padding-large w3-wide w3-animate-opacity w3-jumbo w3-dancing_script text-shadow">Jeremy Dreher</div>
+        </br>
+        <span class="w3-center w3-padding-xxlarge w3-wide w3-animate-opacity w3-medium roboto text-shadow">Multimedia Professional</span>
+    </div>
+    </div>
+
+    <div>
+        <p></p>
+        <br>
+        <p></p>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64 contentBG inset_box-shadow" id="aboutMe">
+    <h1 class="w3-center">ABOUT ME</h1>
+    
+    <div class="w3-row">
+        <div class="w3-col m6  w3-padding-large">
+        <img src="images/me and the boys edited.jpg"
+             class="w3-circle w3-image w3-hover-opacity box-shadow" 
+             alt="Photo of Me" 
+             width="500" 
+             height="333">
+        </div>
+
+        <div class="w3-col m6  w3-padding-large">
+        <p> <h4> Hello! </h4> </p> 
+        <p> Welcome to my portfolio site, I appreciate the visit. </p> 
+        <p> My name is Jeremy. Nice to meet you. </p> 
+        <p> I am a designer, a developer, a producer and a musician. </p>
+        <p> I love coding. I love design. I love sound. </p> 
+        <p> <strong> I love to be creative and explore new ideas. </strong> </p>
+        <p> I feel the most comfortable working in the Front End of web development. 
+            However, I have tampered with some Back End and Software languages. 
+            I even enjoy working with data. </p>
+        </div>
+    </div>
+
+<!--
+    <p class="w3-xlarge w3-center w3-padding-16">MY SKILLSET</p>
+    <p class="w3-wide" id="html">HTML</p>
+    <div class="w3-progress-container">
+        <div class="w3-progressbar  box-shadow" id="htmlBar" style="width:75%"></div>
+    </div>
+    <p class="w3-wide" id="css">CSS</p>
+    <div class="w3-progress-container">
+        <div class="w3-progressbar  box-shadow" id="cssBar"  style="width:60%"></div>
+    </div>
+    <p class="w3-wide">JavaScript</p>
+    <div class="w3-progress-container">
+        <div class="w3-progressbar box-shadow" id="jsBar" style="width:40%"></div>
+    </div>
+    <p class="w3-wide">SQL</p>
+    <div class="w3-progress-container">
+        <div class="w3-progressbar box-shadow" id="sqlBar" style="width:30%"></div>
+    </div>
+    <p class="w3-wide">PHP</p>
+    <div class="w3-progress-container">
+        <div class="w3-progressbar box-shadow" id="sqlBar" style="width:25%"></div>
+    </div>
+    <p class="w3-wide">C#</p>
+    <div class="w3-progress-container">
+        <div class="w3-progressbar  box-shadow" id="csBar" style="width:15%"></div>
+    </div>
+    <p class="w3-wide">Python</p>
+    <div class="w3-progress-container">
+        <div class="w3-progressbar  box-shadow" id="pythonBar" style="width:10%"></div>
+    </div>
+    -->
+    </div>
+
+    <div>
+        <p></p>
+        <br>
+        <p></p>
+    </div>
+
+    <!-- Second Parallax Image with Portfolio Text -->
+    <div class="bgimg-2 w3-display-container inset_box-shadow">
+    <div class="w3-display-middle">
+        <div class="w3-jumbo w3-text-white w3-wide text-shadow" id="portfolio">PORTFOLIO</div>
+    </div>
+    </div>
+
+    <div>
+        <p></p>
+        <br>
+        <p></p>
+    </div>
+
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64 contentBG inset_box-shadow" >
+    <h1 class="w3-center">WEB DEVELOPMENT</h1> 
+
+     <div class="w3-row-padding">
+        <div class="w3-col m6">
+        <h4 class="w3-center"> <a href="http://jeremydreher.com/" target="_blank"> My Portfolio </a> </h4>
+        <img src="images/PortfolioScreenShot.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity box-shadow" alt="Jeremy Dreher's Portfolio'">
+        <div class="portDesc">
+            <p> This one should look familiar. It's the site you're looking at. This began as a W3.CSS template and has continued to be molded to how I see fit. This is designed to showcase my development, design, and other multimedia skills.
+            <br>
+            Background photography courtesy of <a href="https://www.instagram.com/optycal.vision/?hl=en" target="_blank"> Optycal.Vision. </a> </p>
+            <p> Skills Used: HTML, CSS, JavaScript, Bootstrap.
+        </div>
+        </div>
+
+        <div class="w3-col m6">
+        <h4 class="w3-center"> <a href="https://scottthebarber.com" target="_blank"> Scott the Barber </a> </h4>
+        <img src="images/ScottTheBarberScreenShot.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity box-shadow" alt="Scott The Barber">
+        <div class="portDesc">
+            <p> This is an informational website developed for a local barber, detailing services and contact information. Because his services are aimed largely at seniors, I was directed to create a site that was legible, direct, and displayed confidence. </p>
+            <p> Skills Used: HTML, CSS, JavaScript, Bootstrap. </p>
+        </div>
+        </div>
+    </div>
+
+    </br>
+
+    <div class="w3-row-padding">
+        <div class="w3-col m6">
+        <h4 class="w3-center"> <a href="http://textbasedhorror.com" target="_blank">  Text-Based Horror </a> </h4>
+        <img src="images/TextBasedHorrorScreenShot.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity box-shadow" alt="Text-Based Horror">
+        <div class="portDesc">
+            <p> Worked alongside teammates on a text-based JavaScript game to fix bugs and build upon pre-existing code. As part, I first ensured all the sounds in the game were working as expected, then developed a script making it possible for developers to easily adjust the level of the sounds. </p>
+            <p> Skills Used: HTML, CSS, JavaScript, Bootstrap.</p>
+        </div>
+        </div>
+
+        <div class="w3-col m6">
+        <h4 class="w3-center"> <a href="http://esoteric-entertainment.weebly.com" target="_blank">  Esoteric Entertainment </a> </h4>
+        <img src="images/EEScreenShot.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity box-shadow" alt="Esoteric Entertainment">
+        <div class="portDesc">
+            <p> Created with Weebly, I learned how to manipulate the HTML and CSS to customize the template and get rid of the "Created with a free Weebly account" footer. This was my first dive into coding and what led me on the path to learn development skills. </p>
+            <p> Skills Used: HTML, CSS, Photoshop.
+
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <div>
+        <p></p>
+        <br>
+        <p></p>
+    </div>
+
+    <div class="w3-content w3-container w3-padding-64 contentBG inset_box-shadow" >
+    <h1 class="w3-center">SOFTWARE DEVELOPMENT</h1> 
+
+     <div class="w3-row-padding">
+        <div class="w3-col m6">
+        <h4 class="w3-center"> Library Management System </h4>
+        <img src="images/SQLLMSSchema.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity box-shadow" alt="SQL LMS Schema">
+        <div class="portDesc">
+            <p> I developed a theoretical Library Management System (LMS) in SQL Server to track card-holders (borrowers), branch locations, available books, and checked-out books and their accompanying borrowers and due-dates. In addition, I scripted stored procedures to execute anticipated queries. </p>
+            <p> View the repo on GitHub <a href="https://github.com/jeremyadreher/LibraryManagementSystem" target="_blank"> here. </a></p>
+            <p> Skills Used: SQL.</p>
+        </div>
+        </div>
+
+        <div class="w3-col m6">
+        <h4 class="w3-center"> Daily File Transfer </h4>
+        <img src="images/PythonDFTGUI.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity box-shadow" alt="Python Daily File Transfer">
+        <div class="portDesc">
+            <p> 
+I developed a Daily File Transfer app with Python 3, using IDLE, to copy files from one location to a backup location. It allows you to choose the 'Source' and 'Destination' directories and will only copy files that were modified or created since the last backup. </p>
+            <p> View the repo on GitHub <a href="https://github.com/jeremyadreher/Python_Daily_FIle_Transfer_with_GUI" target="_blank"> here. </a> </p>
+            <p> Skills Used: Python. </p>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    
+
+    <div>
+        <p></p>
+        <br>
+        <p></p>
+    </div>
+  
+    <div class="w3-content w3-container w3-padding-64 contentBG inset_box-shadow">
+    <h1 class="w3-center">DESIGN</h1>
+
+    <div class="w3-row-padding w3-center">
+        <h4> Esoteric Entertainment Compilations </h4>
+        <div class="w3-col m4">
+        <img src="images/Indigenius cover.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity box-shadow" alt="IndiGenius Cover">
+        </div>
+
+        <div class="w3-col m4">
+        <img src="images/IndiGenius2Cover.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity box-shadow" alt="IndiGenius 2 Cover">
+        </div>
+
+        <div class="w3-col m4">
+        <img src="images/IndiGenius3Cover.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity box-shadow" alt="IndiGenius 3 Cover">
+        </div>    
+    </div>
+
+     <div class="w3-row-padding w3-center w3-padding-64">
+        <h4> Esoteric Entertainment Business Card </h4>
+        <div class="w3-col m6">
+            <img src="images/EE Bus Card Front.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity box-shadow" alt="EE Business Card Front">
+            <p> Front </p>
+        </div>
+        <div class="w3-col m6">
+            <img src="images/EE Bus Card Back.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity box-shadow" alt="EE Business Card Back">
+            <p> Back </p>
+        </div>  
+    </div>
+
+    <div class="w3-row-padding w3-center w3-padding-64">
+        <h4> Logic Control Inside CD Booklet </h4>
+        <div class="w3-col m12">
+            <img src="images/LC Notes with Mixer Bkgrd.jpg" width="100%" height="50%" onclick="onClick(this)" class="w3-hover-opacity box-shadow" alt="EE Business Card Front">
+        </div>
+    </div>
+
+    <div class="w3-row-padding w3-center w3-padding-64">
+        <div class="w3-col m6"> 
+            <h4> Esoteric Entertainment Quarter Page Ad </h4>
+            <img src="images/Quarter Page Ad.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity box-shadow" alt="EE Quarter Page Ad">
+        </div>
+        <div class="w3-col m6">
+            <h4> 2012 Mung Show Flyer </h4>
+            <img src="images/flyer.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity box-shadow" alt="2012 Mung Show Flyer">
+        </div>
+    </div>
+
+    </div>
+
+    
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-closebtn w3-text-white w3-opacity w3-hover-opacity-off w3-xxlarge w3-container w3-display-topright" title="Close Modal Image">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+    </div>
+
+    <div>
+        <p></p>
+        <br>
+        <p></p>
+    </div>
+    
+
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container inset_box-shadow">
+    <div class="w3-display-middle">
+        <div class="w3-jumbo w3-text-white w3-wide text-shadow" id="contact">CONTACT</div>
+    </div>
+    </div>
+
+    <div>
+        <p></p>
+        <br>
+        <p></p>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-padding-64 contentBG inset_box-shadow" >
+    <div class="w3-center">
+        <p> You like what you see? </p>
+        <p> <h4> <strong> I LIKE THAT YOU LIKE WHAT YOU SEE! </strong> </h4> </p>
+    </div>
+    <div class="w3-row w3-padding-32 w3-section">
+        <!-- <div class="w3-col m4 w3-container"></div> -->
+        <div class="w3-col m12 w3-container w3-section">
+            <div class="w3-col w3-large  m6  w3-row">
+                <i class="fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Vancouver, WA<br>
+                <i class="fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 801-979-6051<br>
+                <i class="fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> jeremyadreher@gmail.com<br>
+            </div>
+            <div class="w3-col w3-row m6 w3-row w3-center">
+                <a class="fa fa-linkedin fa-2x w3-hover-text-black" href="https://www.linkedin.com/in/jeremyadreher" target="_blank"></a>
+                <a class="fa fa-github fa-2x w3-hover-text-black" href="https://github.com/jeremyadreher" target="_blank"></a>
+                <a class="fa fa-codepen fa-2x w3-hover-text-black" href="http://codepen.io/JeremyADreher/" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div>
+        <p></p>
+        <br>
+        <p></p>
+    </div>
+
+    <!-- Footer -->
+     <div class="bgimg-3 w3-display-container inset_box-shadow">
+    <div class="w3-display-middle">
+        <span class="w3-xxlarge w3-text-light-grey w3-wide text-shadow"> THINK. CREATE. INSPIRE. </span>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
